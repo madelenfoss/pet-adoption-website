@@ -1,6 +1,6 @@
-header {
+.navbar {
 	width: 100vw;
-	height: 15vh;
+	height: 7rem;
 	background-color: #61BDFF;
 	justify-content: center;
 	align-items: center;
@@ -16,17 +16,54 @@ header {
 	justify-content: space-around;
 	align-items: center;
 	padding: 3rem;
-
 }
 
+.navbar__item {
+	display: inline-block;
+	position: relative;
+}
+
+.navbar__item:hover .navbar__submenu {
+	display: block;
+}
 
 .navbar a {
 	display: block;
-	padding: 0 16px;
+	padding: 0.5rem;
+	line-height: inherit;
 	cursor: pointer;
+	color: #0054A1;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.navbar a:hover {
+	color: white;
 }
 
 li {
 	list-style: none;
 }
 
+.navbar__submenu {
+	position: absolute;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: none;
+	width: 16rem;
+	background-color: #61BDFF;
+	padding: 0 0 0.5rem 0;
+	border-radius: 1rem;
+}
+
+.navbar__submenu a {
+	padding: 0.8rem;
+}
+
+.navbar__submenu-item:hover {
+	background-color: #0054A1;
+	color: white;
+	border-radius: 1rem;
+}
