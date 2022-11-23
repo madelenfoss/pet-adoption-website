@@ -2,9 +2,9 @@
 @import './variables.css';
 @import './base.css';
 @import './fonts.css';
-@import './modules/cursor.css';
 
 @import './modules/header.css';
 @import './modules/footer.css';
 @import './modules/slideshow.css';
-@import './modules/'
+@import './modules/ageconverter.css';
+@import './modules/memberform.css';
