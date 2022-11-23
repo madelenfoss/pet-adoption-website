@@ -1,5 +1,23 @@
-.slideshow {
+.slideshow__header {
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+	width: 100vw;
+	margin: 3rem auto;
+	color: #0054A1;
+}
 
+.slideshow {
+	position: fixed;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50vw;
+	height: 80vh;
+	margin-top: 7rem;
+	background-color: #61BDFF;
+	border-radius: 2rem;
+	box-shadow: 0 6px 20px #0054A1;
 }
 
 .slideshow__buttons {
