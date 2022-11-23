@@ -1,0 +1,35 @@
+header {
+	width: 100vw;
+	height: 15vh;
+	background-color: #61BDFF;
+	justify-content: center;
+	align-items: center;
+}
+
+/* @media screen and {
+
+} */
+
+.navbar__items {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 3rem;
+
+}
+
+.navbar__item {
+
+}
+
+.navbar a {
+	display: block;
+	padding: 0 16px;
+	cursor: pointer;
+}
+
+li {
+	list-style: none;
+}
+
