@@ -1,0 +1,13 @@
+:root {
+	--font-header:'Sansita Swashed'; 
+	--font-h3:'Spinnaker';
+	--font-paragraph:'Abhaya Libre';
+	
+	--primary: #8095ff;
+	--secondary: #ffea80;
+	--tertiary: #FFFFFF;
+	--quaternary: #754E38;
+	--quinary: #000000;
+	--senary: black;
+	--septenary: black;
+}
