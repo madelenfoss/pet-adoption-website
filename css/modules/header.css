@@ -21,7 +21,7 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	padding: 2.5rem 3rem;
+	padding: 2rem 3rem;
 }
 
 .navbar__item:hover .navbar__submenu {
@@ -43,7 +43,7 @@
 	color: white;
 }
 
-li {
+.navbar li {
 	list-style: none;
 }
 
@@ -66,4 +66,12 @@ li {
 	background-color: #0054A1;
 	color: white;
 	border-radius: 1rem;
+	box-shadow: 0px 2px 5px #0054A1;
+}
+
+.navbar__item-donate a {
+	background-color: orangered;
+	color: white;
+	border-radius: 50px;
+	padding: 1rem 1.5rem;
 }

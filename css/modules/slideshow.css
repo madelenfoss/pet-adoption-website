@@ -7,30 +7,62 @@
 	color: #0054A1;
 }
 
+
+
 .slideshow {
 	position: fixed;
 	top: 58%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 50vw;
+	width: 70vw;
 	height: 80vh;
-	margin-top: 7rem;
+	margin: 7rem auto 20rem auto;
 	background-color: #61BDFF;
 	border-radius: 2rem;
 	box-shadow: 0 6px 20px #0054A1;
+	overflow:visible;
 }
+
+.slideshow__slide {
+	position: absolute;
+	display: none;
+	top: 2.5%;
+	left: 2.5%;
+	width: 95%;
+	height: 95%;
+	align-items: center;
+	transition: ease-in 0.7s;
+}
+
+.slideshow__slide--active {
+	display: block;
+}
+
+.slideshow__img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
 
 .slideshow__buttons {
-
-}
-
-.slideshow__button-previous {
+	position: relative;
+	z-index: 10;
+	height: 100%;
 
 }
 
 .slideshow__button-next {
+	background-color: orangered;
 	
 }
+
+.slideshow__button-previous {
+	background-color: orangered;
+
+}
+
+
 
 .slideshow__slides {
 
