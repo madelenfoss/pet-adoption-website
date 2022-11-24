@@ -1,0 +1,67 @@
+h1 {
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+	width: 100vw;
+	margin: 2rem auto 1rem auto;
+	color: var(--tertiary);
+	text-shadow: ;
+}
+
+.contentbox {
+	width: 80%;
+	height: 90%;
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	justify-content: center;
+}
+
+.contentbox__item {
+	margin: 2rem;
+	height: 18rem;
+	width: 14rem;
+	box-shadow: 6px 8px 10px var(--tertiary);
+	overflow: hidden;
+	border: 0.2rem solid var(--quinary);
+	border-radius: 0.1rem;
+	overflow: ;
+}
+
+.contentbox img {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	object-fit: cover;
+	transition: transform 0.4s ease-in-out;
+	transition-delay: 0.1s;
+
+
+}
+
+@keyframes moveInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-10rem);
+
+	}
+
+	80% {
+		transform: translateX(1rem);
+
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+
+	}
+}
+
+.contentbox img:hover {
+	transform: scale(1.06);
+	/* animation: moveInLeft 1s ease-out; */
+
+}
