@@ -1,7 +1,7 @@
 .header__sticky {
 	position: sticky;
 	top: 0;
-	z-index: 10;
+	z-index: 20;
 }
 
 .navbar {
@@ -43,6 +43,7 @@
 .navbar a:hover {
 	color: var(--quinary);
 	transition: ease-in-out 0.3s;
+	text-shadow: 0 1px 2px var(--tertiary);
 }
 
 .navbar li {
@@ -71,6 +72,10 @@
 	box-shadow: 0px 2px 4px var(--tertiary);
 }
 
+.navbar__submenu-item a:hover {
+	text-shadow: 0 1px 2px var(--senary);
+}
+
 .navbar__item-logo a {
 	display: block;
 	width: 5rem;
@@ -82,6 +87,10 @@
 	padding: 1.7rem 0.1rem;
 }
 
+.navbar__item-logo a:hover {
+	border: 4px solid var(--quinary);
+	border-radius: 100px;
+}
 
 .navbar__item-donate a {
 	font-weight: 400;
@@ -94,13 +103,16 @@
 }
 
 .navbar__item-donate a:hover {
-	background-color:rgb(255, 115, 0);
+	background-color: var(--septenary);
 	border-radius: 50px;
 	padding: 1rem 1.5rem;
-	box-shadow: 0 2px 6px #0054A1;
+	text-shadow: 0 1px 2px var(--tertiary);
+	box-shadow: 0 2px 6px var(--tertiary);
+
 }
 
-.navbar__item-donate:active {
+.navbar__item-donate a:active {
 	border-radius: 50px;
 	box-shadow: 0 2px 2px #0054A1;
+	text-shadow: 0 1px 1px var(--tertiary);
 }
