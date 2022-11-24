@@ -6,8 +6,8 @@
 
 .navbar {
 	width: 100vw;
-	height: 7rem;
-	background-color: #61BDFF;
+	height: 8rem;
+	background-color: var(--primary);
 	justify-content: center;
 	align-items: center;
 }
@@ -21,7 +21,8 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	padding: 2rem 3rem;
+	padding: 2rem;
+	margin: 0 3rem 1rem 1rem;
 }
 
 .navbar__item:hover .navbar__submenu {
@@ -32,15 +33,16 @@
 	display: block;
 	padding: 0.5rem;
 	cursor: pointer;
-	color: #0054A1;
+	color: var(--tertiary);
 	text-decoration: none;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
 .navbar a:hover {
-	color: white;
+	color: var(--quinary);
+	transition: ease-in-out 0.3s;
 }
 
 .navbar li {
@@ -53,7 +55,7 @@
 	text-transform: uppercase;
 	display: none;
 	width: 15rem;
-	background-color: #61BDFF;
+	background-color: var(--primary);
 	padding: 0 0 0.5rem 0;
 	border-radius: 1rem;
 }
@@ -63,15 +65,43 @@
 }
 
 .navbar__submenu-item:hover {
-	background-color: #0054A1;
+	background-color: var(--tertiary);
 	color: white;
 	border-radius: 1rem;
-	box-shadow: 0px 2px 5px #0054A1;
+	box-shadow: 0px 2px 4px var(--tertiary);
 }
 
+.navbar__item-logo {
+	width: 5rem;
+	height: 5rem;
+	border-radius: 100px;
+	background-color:  #61BDFF;
+	border: 4px solid #0054A1;
+	padding: 2rem;
+	margin: 0 2rem 2rem 2rem;
+	text-align: center;
+	
+}
+
+
 .navbar__item-donate a {
+	font-weight: 400;
 	background-color: orangered;
 	color: white;
 	border-radius: 50px;
 	padding: 1rem 1.5rem;
+	box-shadow: 0 4px 8px #0054A1;
+	transition: ease-in-out 0.3s;
+}
+
+.navbar__item-donate a:hover {
+	background-color:rgb(255, 115, 0);
+	border-radius: 50px;
+	padding: 1rem 1.5rem;
+	box-shadow: 0 2px 6px #0054A1;
+}
+
+.navbar__item-donate:active {
+	border-radius: 50px;
+	box-shadow: 0 2px 2px #0054A1;
 }
