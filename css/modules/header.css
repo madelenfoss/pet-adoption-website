@@ -66,32 +66,31 @@
 
 .navbar__submenu-item:hover {
 	background-color: var(--tertiary);
-	color: white;
+	color: var(--quinary);
 	border-radius: 1rem;
 	box-shadow: 0px 2px 4px var(--tertiary);
 }
 
-.navbar__item-logo {
+.navbar__item-logo a {
+	display: block;
 	width: 5rem;
 	height: 5rem;
 	border-radius: 100px;
-	background-color:  #61BDFF;
-	border: 4px solid #0054A1;
-	padding: 2rem;
-	margin: 0 2rem 2rem 2rem;
+	background-color: var(--primary);
+	border: 4px solid var(--tertiary);
 	text-align: center;
-	
+	padding: 1.7rem 0.1rem;
 }
 
 
 .navbar__item-donate a {
 	font-weight: 400;
-	background-color: orangered;
-	color: white;
+	background-color: var(--quaternary);
+	color: var(--quinary);
 	border-radius: 50px;
 	padding: 1rem 1.5rem;
-	box-shadow: 0 4px 8px #0054A1;
-	transition: ease-in-out 0.3s;
+	box-shadow: 0 4px 8px var(--tertiary);
+	transition: ease-in-out 0.2s;
 }
 
 .navbar__item-donate a:hover {
