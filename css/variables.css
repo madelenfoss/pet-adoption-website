@@ -1,9 +1,10 @@
 :root {
-	--font-header:'Sansita Swashed'; 
-	--font-h3:'Spinnaker';
-	--font-paragraph:'Abhaya Libre';
+	--font-h1:''; 
+	--font-h3:'';
+	--font-h2: ;
+	--font-paragraph:'';
 	
-	--primary: #61BDFF;
+	--primary: #61bdff;
 	--secondary: #D3EFFF;
 	--tertiary: #0054A1;;
 	--quaternary: #FF6B00;

@@ -58,7 +58,7 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	display: none;
-	width: 15rem;
+	width: 12.8rem;
 	background-color: var(--primary);
 	padding: 0 0 0.5rem 0;
 	border-radius: 1rem;
@@ -116,6 +116,6 @@
 
 .navbar__item-donate a:active {
 	border-radius: 50px;
-	box-shadow: 0 2px 2px #0054A1;
+	box-shadow: 0 2px 2px var(--tertiary);
 	text-shadow: 0 1px 1px var(--tertiary);
 }

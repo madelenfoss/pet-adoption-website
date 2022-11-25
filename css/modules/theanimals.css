@@ -14,7 +14,7 @@ h1 {
 	display: grid;
 	margin: 0 auto;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 1fr);
 	justify-content: center;
 }
 
@@ -29,17 +29,27 @@ h1 {
 
 }
 
-.contentbox img {
+.contentbox__item h3 {
+	position: absolute;
+	background: linear-gradient(to right, 
+					rgb(97, 189, 255) 0%, 
+					rgb(97, 189, 255) 20%, 
+					transparent 100%);
+	padding: 0.2rem 0.5rem;
+	color: white;
+	margin-top: -2.5rem;
+}
+
+.contentbox__item img {
 	margin: 0;
 	height: 100%;
 	width: 100%;
-	position: relative;
 	object-fit: cover;
 	transition: transform 0.4s ease-in-out;
 	transition-delay: 0.1s;
 }
 
-@keyframes moveInLeft {
+/* @keyframes moveInLeft {
 	0% {
 		opacity: 0;
 		transform: translateX(-10rem);
@@ -56,12 +66,9 @@ h1 {
 		transform: translate(0);
 
 	}
-}
+} */
 
 .contentbox img:hover {
 	transform: scale(1.06);
-	
-
-	/* animation: moveInLeft 1s ease-out; */
 
 }
