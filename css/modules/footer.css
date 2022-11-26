@@ -1,4 +1,7 @@
 footer {
+	
 	width: 100vw;
-	height: 7rem;
+	height: 8rem;
+	margin-top: 3rem;
+	background-color: var(--primary);
 }
