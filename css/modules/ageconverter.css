@@ -10,7 +10,7 @@
 	flex-direction: column;
 	margin: 0 auto;
 	width: 30rem;
-	height: 35rem;
+	height: 42rem;
 	align-items: center;
 	background-color: var(--primary);
 	border-radius: 20px;
@@ -18,7 +18,7 @@
 }
 
 label {
-	margin: 2rem auto 1rem auto;
+	margin: 2rem auto 0.5rem auto;
 	font-size: 25px;
 	width: 90%;
 	text-align: center;
@@ -37,6 +37,31 @@ input {
 	box-shadow: 0 4px 6px var(--tertiary) inset;
 }
 
-input:last-of-type {
+/* input:last-of-type {
 	margin-bottom: 2rem;
+} */
+
+.converter__output-label {
+	width: 70%;
+	text-align: center;
+	color: var(--tertiary);
+	font-size: 25px;
+}
+
+.converter__output {
+	width: 70%;
+	margin: 0.5rem auto 1.5rem auto;
+	padding: 0.8rem;
+	background: linear-gradient(-35deg, 		
+					#c6d8ff, 
+					#ffffff, 
+					#ffffff,
+					#c6d8ff);
+	border-radius: 10px;
+	box-shadow: 0 4px 6px var(--tertiary) inset;
+	color: var(--tertiary);
+}
+
+.converter__output:last-of-type {
+	margin-bottom: 3rem;
 }
