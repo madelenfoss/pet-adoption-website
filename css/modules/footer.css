@@ -1,7 +1,7 @@
 footer {
 	
 	width: 100vw;
-	height: 9rem;
+	height: 11rem;
 	margin-top: 3rem;
 	background-color: var(--primary);
 }
@@ -10,8 +10,10 @@ footer {
 	display: flex;
 	flex-direction: row;
 	margin: 2rem auto 1rem auto;
+	width: 70%;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
+
 
 }
 
@@ -53,8 +55,12 @@ footer {
 
 .footer__copyright {
 	display: flex;
+	width: 50%;
 	justify-content: center;
-	margin: 0 auto;
+	margin: 0 auto 1rem auto;
+	padding-top: 1rem;
 	font-size: 18px;
+	color: var(--tertiary);
+	border-top: 1px solid var(--tertiary);
 
 }

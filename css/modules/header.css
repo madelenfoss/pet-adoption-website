@@ -8,7 +8,6 @@
 	width: 100vw;
 	height: 7rem;
 	background-color: var(--primary);
-	justify-content: center;
 	align-items: center;
 }
 
@@ -21,7 +20,7 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	margin: 0 3rem 1rem 1rem;
+	text-align: center;
 }
 
 .navbar__item {

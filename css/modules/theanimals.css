@@ -27,8 +27,6 @@ h1 {
 	border: 0.2rem solid var(--quinary);
 	border-radius: 0.1rem;
 	cursor: pointer;
-	
-
 }
 
 .contentbox__item h3 {
@@ -72,5 +70,4 @@ h1 {
 
 .contentbox img:hover {
 	transform: scale(1.08);
-
 }
