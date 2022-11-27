@@ -23,3 +23,8 @@ body {
 	flex-basis: auto;
  } */
 
+ p {
+	color: var(--tertiary);
+	font-size: 22px;
+ }
+
