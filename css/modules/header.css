@@ -80,7 +80,6 @@
 }
 
 .navbar__item-logo a {
-	display: block;
 	width: 5rem;
 	height: 5rem;
 	border-radius: 100px;
@@ -111,6 +110,7 @@
 	padding: 1rem 1.5rem;
 	text-shadow: 0 1px 2px var(--tertiary);
 	box-shadow: 0 2px 6px var(--tertiary);
+	cursor: url('./assets/images/apple-touch-icon.png');
 
 }
 
