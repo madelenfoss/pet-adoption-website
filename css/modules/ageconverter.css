@@ -1,5 +1,5 @@
 .h1__converter {
-	margin: 2rem auto 3rem auto;
+	margin: 2rem auto;
 	width: 100%;
 	text-align: center;
 }
@@ -9,10 +9,10 @@
 	position: relative;
 	flex-direction: column;
 	margin: 0 auto;
-	width: 30rem;
+	width: 40rem;
 	height: 42rem;
 	align-items: center;
-	background-color: var(--primary);
+	background-color: var(--quaternary);
 	border-radius: 20px;
 	box-shadow: 0 6px 20px var(--tertiary);
 }
@@ -22,7 +22,7 @@ label {
 	font-size: 25px;
 	width: 90%;
 	text-align: center;
-	color: var(--tertiary);
+	color: var(--quinary);
 }
 
 input {
@@ -44,7 +44,7 @@ input {
 .converter__output-label {
 	width: 70%;
 	text-align: center;
-	color: var(--tertiary);
+	color: var(--quinary);
 	font-size: 25px;
 }
 

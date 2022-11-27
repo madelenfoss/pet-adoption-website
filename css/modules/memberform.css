@@ -1,0 +1,15 @@
+.memberform {
+	display: block;
+	width: 80%;
+	border: 1px solid black;
+	background-image: url('../assets/images/hannah-lim-U6nlG0Y5sfs-unsplash') no-repeat;
+
+}
+
+fieldset {
+	display: block;
+	width: 50%;
+	background-image: url('./assets/images/hannah-lim-U6nlG0Y5sfs-unsplash.jpg');
+	background-color: var(--primary);
+	border
+}
