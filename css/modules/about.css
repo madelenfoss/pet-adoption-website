@@ -1,0 +1,8 @@
+.p__about {
+	display: block;
+	width: 50rem;
+	margin: 2rem auto 20rem auto;
+	text-align: left;
+	color: var(--tertiary);
+	font-size: 25px;
+}
