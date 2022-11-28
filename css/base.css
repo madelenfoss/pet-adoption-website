@@ -24,7 +24,14 @@ body {
  } */
 
  p {
+	display: block;
+	margin: 1rem auto;
+	padding: 1rem 8rem;
 	color: var(--tertiary);
 	font-size: 22px;
+	justify-content: center;
+	text-align: center;
+
+
  }
 

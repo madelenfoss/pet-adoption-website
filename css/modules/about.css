@@ -1,15 +1,15 @@
-.p__about {
+/* .p__about {
 	display: block;
 	width: 50%;
 	margin: 2rem auto 3rem auto;
 	text-align: center;
 	color: var(--tertiary);
 	font-size: 22px;
- }
+ } */
 
  .img__about {
 	display: block;
-	margin: 1rem auto;
+	margin: 2rem auto;
 	width: 50%;
 	align-items: center;
 	border-radius: 20px;
