@@ -13,8 +13,6 @@ footer {
 	width: 70%;
 	align-items: center;
 	justify-content: space-between;
-
-
 }
 
 .footer__some a {
@@ -47,7 +45,6 @@ footer {
 	border: 3.5px solid var(--quinary);
 	border-radius: 100%;
 }
-
 
 .footer__some li {
 	list-style: none;
