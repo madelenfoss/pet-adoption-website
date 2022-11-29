@@ -42,9 +42,9 @@ export default function AgeConverter() {
 		humanYearsInput.addEventListener('input', () => {
 			document.querySelector('.converter__output-dog').innerHTML = humanYearsInput.value *7;
 			document.querySelector('.converter__output-cat').innerHTML = humanYearsInput.value * 8;
-			document.querySelector('.converter__output-budgie').innerHTML = humanYearsInput * 9;
-			document.querySelector('.converter__output-parrot').innerHTML = humanYearsInput * 10;
-			document.querySelector('.converter__output-bunny').innerHTML = humanYearsInput * 11;
+			document.querySelector('.converter__output-budgie').innerHTML = humanYearsInput.value * 9;
+			document.querySelector('.converter__output-parrot').innerHTML = humanYearsInput.value * 10;
+			document.querySelector('.converter__output-bunny').innerHTML = humanYearsInput.value * 11;
 		});
 	}
 

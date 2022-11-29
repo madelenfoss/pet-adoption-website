@@ -1,4 +1,4 @@
-.memberform__background {
+/* .memberform__background {
 	background: url('../assets/images/background-hannah-lim.jpg');
 }
 
@@ -17,4 +17,10 @@ fieldset {
 	padding: 3rem 3rem 15rem 3rem;
 	background-color: var(--primary);
 	border: none;
+} */
+
+.memberform {
+	margin: 2rem 6rem;
+	padding: 15rem;
+	background-image: linear-gradient(to bottom, var(--quinary), transparent);
 }
