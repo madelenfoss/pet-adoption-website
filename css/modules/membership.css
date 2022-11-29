@@ -19,8 +19,31 @@ fieldset {
 	border: none;
 } */
 
-.memberform {
-	margin: 2rem 6rem;
-	padding: 15rem;
-	background-image: linear-gradient(to bottom, var(--quinary), transparent);
+.membership {
+	display: flex;
+	margin: 0 auto;
+	height: 70rem;
+	justify-content: center;
+
 }
+
+.membership__background {
+	background-image: url('/assets/images/background-hannah-lim.jpg');
+	height: 90%;
+	width: 42rem;
+	object-fit: fill;
+	justify-content: center;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px var(--tertiary);
+}
+
+.membership__foreground {
+	margin: 0 auto;
+	padding: 1rem;
+	width: 42rem;
+	height: 70%;
+	background-image: linear-gradient(to bottom, var(--quinary), transparent);
+	justify-content: center;
+	border-radius: 20px;
+}
+

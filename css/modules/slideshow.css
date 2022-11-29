@@ -15,6 +15,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 70vw;
+	min-width: 768px;
 	height: 80vh;
 	margin: 7rem auto 20rem auto;
 	background-color: #61BDFF;

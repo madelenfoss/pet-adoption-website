@@ -7,11 +7,37 @@
 	font-size: 22px;
  } */
 
- .img__about {
+ .about__image {
 	display: block;
 	margin: 2rem auto;
 	width: 50%;
+	min-width: 600px;
 	align-items: center;
 	border-radius: 20px;
 	box-shadow: 0 5px 10px var(--tertiary);
+ }
+
+ .about__p {
+	display: flex;
+	width: 100%;
+	margin: 1rem auto;
+	padding: 1rem 5rem;
+	color: var(--tertiary);
+	font-size: 22px;
+	justify-content: center;
+	text-align: center;
+
+ }
+
+ @media screen and (max-width: 768px) {
+	.about__image {
+		width: 100%;
+		border-radius: 0;
+	}
+
+	.about__p {
+		margin: 1rem;
+		width: 100%;
+		padding: 1rem 1.5rem;
+	}
  }

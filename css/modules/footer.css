@@ -2,6 +2,7 @@ footer {
 	
 	width: 100vw;
 	height: 11rem;
+	min-width: 400px;
 	margin-top: 3rem;
 	background-color: var(--primary);
 }

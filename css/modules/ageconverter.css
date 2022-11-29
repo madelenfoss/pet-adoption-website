@@ -9,7 +9,8 @@
 	position: relative;
 	flex-direction: column;
 	margin: 0 auto;
-	width: 40rem;
+	width: 50%;
+	min-width: 400px;
 	height: 42rem;
 	align-items: center;
 	background-color: var(--quaternary);
