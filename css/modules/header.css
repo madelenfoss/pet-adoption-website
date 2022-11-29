@@ -117,25 +117,48 @@
 
 @media screen and (max-width: 768px) {
 	.navbar {
-		display: flex;
-		width: 100vw;
-		height: 8rem;
-		background-color: var(--primary);
-		align-items: center;
-		overflow: hidden;
+		display: none;
 	}
 	
 	.navbar__items {
-		display: flex;
-		flex-direction: row wrap;
-		justify-content: space-around;
+
+		justify-content: center;
 		align-items: center;
 	}
 
 	.navbar__items a {
 		font-size: 18px;
-		text-overflow: wrap;
+
 
 	}
-	
+
 }
+
+.navbar__mobile {
+	width: 100vw;
+	height: 7rem;
+	min-width: 400px;
+	background-color: var(--primary);
+	align-items: center;
+}
+
+.navbar__mob-items li {
+	list-style: none;
+}
+
+.navbar__mob-items {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 1rem;
+	justify-content: space-around;
+	align-items: center;
+	background-color: var(--primary);
+
+}
+
+.navbar__mob-item {
+	margin: 0;
+}
+
+
