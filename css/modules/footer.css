@@ -13,6 +13,7 @@ footer {
 	width: 70%;
 	align-items: center;
 	justify-content: space-between;
+	justify-self: end;
 }
 
 .footer__some a {
@@ -26,6 +27,10 @@ footer {
 	color: var(--quinary);
 	transition: ease-in-out 0.3s;
 	text-shadow: 0 1px 2px var(--tertiary);
+}
+
+.footer__some a:active {
+	text-shadow: 0 1px 5px var(--quinary);
 }
 
 

@@ -6,7 +6,7 @@ import Slideshow from './modules/slideshow.js';
 import Ageconverter from './modules/ageconverter.js';
 
 Header();
-Slideshow();
+//Slideshow();
 Ageconverter();
 
 
