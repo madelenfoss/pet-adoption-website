@@ -125,6 +125,7 @@
 
 .navbar__mob {
 	display: none;
+	margin-bottom: 1.5rem;
 	width: 100vw;
 	height: 6rem;
 	font-size: 18px;

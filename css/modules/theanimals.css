@@ -1,21 +1,14 @@
-h1 {
-	font-size: 50px;
-	font-weight: bold;
-	text-align: center;
-	width: 100vw;
-	margin: 2rem auto 1rem auto;
-	color: var(--tertiary);
-	text-shadow: 0 4px 4px var(--primary);
-}
-
 .animals__p {
 	display: block;
 	width: 100%;
 	margin: 1rem auto;
-	padding: 1rem 8rem 0.5rem 8rem;
+	padding: 1rem 5rem;
+	color: var(--tertiary);
+	font-size: 22px;
+	justify-content: center;
 	text-align: center;
-	
-}
+
+ }
 
 .contentbox {
 	width: 80%;
@@ -26,6 +19,7 @@ h1 {
 	grid-template-rows: repeat(3, 1fr);
 	justify-content: center;
 }
+
 
 .contentbox__item {
 	margin: 2rem;
@@ -58,6 +52,47 @@ h1 {
 	transition-delay: 0.1s;
 }
 
+.contentbox img:hover {
+	transform: scale(1.08);
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.animals__p {
+		margin: 1rem;
+		width: 90%;
+		padding: 1rem 1.5rem;
+	}
+
+	.contentbox {
+		display: flex;
+		flex-direction: column;
+		width: 100vw;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contentbox__item {
+		margin: 1.5rem auto;
+		width: 92%;
+		height: 35rem;
+		border: 0.5rem solid var(--quinary);
+	}
+
+	.contentbox__item h3 {
+		font-size: 40px;
+		margin-top: -80px;
+	}
+
+	.contentbox img:hover {
+		transform: none;
+	}
+}
+
+
+
+
 /* @keyframes moveInLeft {
 	0% {
 		opacity: 0;
@@ -77,6 +112,3 @@ h1 {
 	}
 } */
 
-.contentbox img:hover {
-	transform: scale(1.08);
-}
