@@ -119,31 +119,36 @@
 	.navbar {
 		display: none;
 	}
-	
-	.navbar__items {
-
-		justify-content: center;
-		align-items: center;
-	}
-
-	.navbar__items a {
-		font-size: 18px;
-
-
-	}
 
 }
 
-.navbar__mobile {
+
+/*  Navbar for mobile */
+
+.navbar__mob {
+	display: none;
 	width: 100vw;
-	height: 7rem;
+	height: 6rem;
 	min-width: 400px;
+	font-size: 18px;
 	background-color: var(--primary);
 	align-items: center;
 }
 
+.navbar__mob a {
+	margin-bottom: 0.5rem;
+}
+
 .navbar__mob-items li {
 	list-style: none;
+	padding: 0.2rem;
+	font-weight: bold;
+}
+
+.navbar__mob-items li a {
+	font-size: 22px;
+	text-decoration: none;
+	color: var(--tertiary);
 }
 
 .navbar__mob-items {
@@ -156,9 +161,75 @@
 	background-color: var(--primary);
 
 }
-
 .navbar__mob-item {
-	margin: 0;
+	margin: 1rem;
 }
 
+.navbar__mob-item-logo a {
+	padding: 1.5rem 0;
+	border: 4px solid var(--tertiary);     
+	border-radius: 100%;
+	text-align: center;
+	justify-content: center;
+
+}
+
+#donate-button {
+	display: flex;
+	justify-content: center;
+	padding: 0.8rem 2rem;
+	background-color: var(--quaternary);
+	border-radius: 100px;
+	width: 7rem;
+	height: 3rem;
+	box-shadow: 0 2px 5px var(--tertiary);
+}
+
+#donate-button a {
+	color: var(--quinary);
+}
+
+
+/*  Submenu for mobile */
+
+.navbar__mob-item:hover .subnavbar__mob {
+	display: block;
+}
+
+
+/* Make hover into click on touch screens 
+@media(hover: hover) and (pointer: fine) {
+	.navbar__mob-item a:hover {
+		 display: block;
+	}
+}
+*/
+
+.subnavbar__mob {
+	position: absolute;
+	display: none;
+	margin-top: 0.5rem;
+	width: 20rem;
+	background-color: var(--primary);
+	padding: 0 0 0.5rem 0;
+	border-radius: 1rem;
+}
+
+.subnavbar__mob li {
+	padding: 0.5rem;
+}
+
+.subnavbar__mob a {
+	padding: 1rem;
+}
+
+.navbar__mob-hide {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar__mob-hide {
+		display: block;
+	}
+}
 
