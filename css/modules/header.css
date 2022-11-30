@@ -72,7 +72,7 @@
 	color: var(--quinary);
 	border-radius: 50px;
 	padding: 1rem 1.5rem;
-	box-shadow: 0 4px 8px var(--tertiary);
+	box-shadow: 0 3px 7px var(--tertiary);
 	transition: ease-in-out 0.2s;
 }
 
@@ -81,8 +81,7 @@
 	border-radius: 50px;
 	padding: 1rem 1.5rem;
 	text-shadow: 0 1px 2px var(--tertiary);
-	box-shadow: 0 2px 6px var(--tertiary);
-	cursor: url('../assets/images/apple-touch-icon.png'); /* custom cursor, javascript? */
+	box-shadow: 0 2px 5px var(--tertiary);
 }
 
 .navbar__item-donate a:active {
