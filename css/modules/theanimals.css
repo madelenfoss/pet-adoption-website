@@ -11,20 +11,21 @@
  }
 
 .contentbox {
-	width: 80%;
-	height: 90%;
+	width: 90%;
+	height: auto;
 	display: grid;
 	margin: 0 auto;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(3, 1fr);
-	justify-content: center;
+	gap: 1.5rem;
+	justify-content: space-between;
 }
 
 
 .contentbox__item {
-	margin: 2rem;
-	height: 18rem;
-	width: 14rem;
+	margin: 1rem;
+	height: auto;
+	width: 95%;
 	box-shadow: 6px 8px 10px var(--tertiary);
 	overflow: hidden;
 	border: 0.2rem solid var(--quinary);
@@ -60,7 +61,7 @@
 @media screen and (max-width: 768px) {
 
 	.animals__p {
-		margin: 1rem;
+		margin: 0 auto;
 		width: 90%;
 		padding: 1rem 1.5rem;
 	}
@@ -74,7 +75,7 @@
 	}
 
 	.contentbox__item {
-		margin: 1.5rem auto;
+		margin: 1rem auto;
 		width: 92%;
 		height: 35rem;
 		border: 0.5rem solid var(--quinary);
@@ -90,25 +91,11 @@
 	}
 }
 
+@media screen and (max-width: 992px) and (min-width: 769px) {
 
-
-
-/* @keyframes moveInLeft {
-	0% {
-		opacity: 0;
-		transform: translateX(-10rem);
-
+	.contentbox {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(4, 1fr);
 	}
 
-	80% {
-		transform: translateX(1rem);
-
-	}
-
-	100% {
-		opacity: 1;
-		transform: translate(0);
-
-	}
-} */
-
+}
