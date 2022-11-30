@@ -10,7 +10,7 @@
 	flex-direction: column;
 	margin: 0 auto;
 	width: 50%;
-	min-width: 400px;
+	min-width: 500px;
 	height: 42rem;
 	align-items: center;
 	background-color: var(--quaternary);
@@ -65,4 +65,11 @@ input {
 
 .converter__output:last-of-type {
 	margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+	.converter {
+		width: 90%;
+		border-radius: 10px;
+	}
 }
