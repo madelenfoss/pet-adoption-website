@@ -305,7 +305,7 @@
 			</div> 
 	   </section> -->
 		<h1>Become a member</h1>
-		<p>
+		<p class="membership__p">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 			Molestias id iure atque ratione deleniti eos repellendus, 
 			nostrum, reiciendis vel similique culpa, consectetur fugit. 
@@ -314,18 +314,27 @@
 		<section class="membership">
 			<div class="membership__background">
 				<div class="membership__foreground">
-					<fieldset>
+					<fieldset class="membership__fieldset">
 						<legend>Become a member</legend>
-						<form 
+						<form
+							class="membership__form" 
 							action="./membership2.html"
 							method="post">
-							<label for="firstname"></label>
+							<label for="firstname">Firstname</label>
 							<input 
 								type="text" 
-								placeholder="Firstname"
+								placeholder="Firstname (required)"
 								name="" 
 								id="firstname"
 								required>
+							<label for="lastname">Lastname</label>
+							<input 
+								type="text" 
+								placeholder="Lastname (required)"
+								name="" 
+								id="lastname"
+								required>
+							<label for=""></label>
 
 						</form>
 					</fieldset>

@@ -11,6 +11,7 @@
 	background-color: var(--primary);
 	align-items: center;
 	box-shadow: 0 1px 6px var(--tertiary);
+	z-index: 20;
 }
 
 @media screen and (max-width: 768px) {
@@ -103,6 +104,7 @@
 	background-color: var(--primary);
 	padding: 0 0 0.5rem 0;
 	border-radius: 0.5rem;
+	z-index: 30;
 }
 
 .navbar__submenu a {

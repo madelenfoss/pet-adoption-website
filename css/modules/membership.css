@@ -1,29 +1,18 @@
-/* .memberform__background {
-	background: url('../assets/images/background-hannah-lim.jpg');
-}
-
-.memberform {
-	display: block;
-	margin: 3rem auto;
-	padding: 1rem;
-	width: 50rem;
-	height: 30rem;
-	border: 1px solid black;
-
-}
-
-fieldset {
+.membership__p {
+	display: flex;
 	width: 100%;
-	padding: 3rem 3rem 15rem 3rem;
-	background-color: var(--primary);
-	border: none;
-} */
+	padding: 0 5rem;
+	color: var(--tertiary);
+	font-size: 22px;
+	text-align: center;
+}
 
 .membership {
 	display: flex;
-	margin: 0 auto;
+	margin: 2.5rem auto;
 	height: 70rem;
 	justify-content: center;
+	max-width: 30rem;
 
 }
 
@@ -47,3 +36,23 @@ fieldset {
 	border-radius: 20px;
 }
 
+
+.membership__form {
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+	.membership__foreground {
+		display: flex;
+		width: 100%;
+	}
+
+	.membership__background {
+		width: 96%;
+	}
+
+	.membership__form {
+		margin: 4rem;
+	}
+}
