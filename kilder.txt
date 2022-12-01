@@ -11,3 +11,6 @@ Birds:
 Bunnies:
 
 Slideshow images:
+
+Animal sound effects from
+https://pixabay.com/sound-effects/

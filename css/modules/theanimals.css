@@ -34,6 +34,7 @@
 }
 
 .contentbox__item h3 {
+	display: flex;
 	position: absolute;
 	background: linear-gradient(to right, 
 					rgb(97, 189, 255) 0%, 
@@ -42,6 +43,7 @@
 	padding: 0.2rem 0.5rem;
 	color: white;
 	margin-top: -2.5rem;
+	object-fit: contain;
 }
 
 .contentbox__item img {
@@ -102,34 +104,3 @@
 }
 
 
-/* POPUP */
-
-#contentbox__popup {
-	display: none;
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index: 30;
-	background-color: rgba(0, 0, 0, 0.5);
-}
-
-#contentbox__openpopup {
-	display: absolute;
-	left: 90%;
-
-	z-index: 25;
-}
-
-#modal {
-	position: absolute;
-	max-width: 600px;
-	height: 300px;
-	margin: auto;
-	background-color: white;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
