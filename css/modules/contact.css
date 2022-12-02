@@ -10,6 +10,30 @@
 
  }
 
+ .contact__email a {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	text-decoration: none;
+	color: var(--tertiary);	
+	font-weight: bold;
+	font-size: 22px;
+ }
+
+ .contact__email a:hover {
+	color: var(--quaternary);
+ }
+
+ .contact__address {
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 22px;
+	color: var(--tertiary);
+
+ }
+
+
  .contact__image {
 	display: block;
 	margin: 2rem auto;
