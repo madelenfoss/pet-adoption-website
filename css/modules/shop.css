@@ -1,0 +1,34 @@
+.shop__container {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	height: 100%;
+	margin: 1rem auto;
+	justify-content: center;
+	gap: 2rem;
+
+}
+
+.shop__container-item {
+	border: 10px solid var(--quinary);
+}
+
+.shop__container-item img {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+
+
+}
+
+@media screen and (max-width: 768px) {
+	.shop__container {
+		flex-direction: column;
+	}
+
+	.shop__container-item img {
+		height: auto;
+		width: 100%;
+		margin-bottom: -0.3rem;
+	}
+}
