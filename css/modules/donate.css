@@ -1,0 +1,28 @@
+.donate__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--tertiary);
+}
+
+.donate__vipps-btn {
+	width: 10rem;
+	height: 4.5rem;
+	margin: 1rem auto;
+	background-color: var(--quaternary);
+	color: var(--quinary);
+	font-weight: bold;
+	font-size: 30px;
+	border-radius: 100px;
+	border: none;
+	box-shadow: -1px 5px 8px var(--tertiary);
+}
+
+.donate__vipps-btn:active {
+	box-shadow: -1px 3px 4px var(--tertiary);
+}
+
+.donate__p {
+	margin: 1rem auto;
+}
