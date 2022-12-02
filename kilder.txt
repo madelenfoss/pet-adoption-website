@@ -1,16 +1,10 @@
 CSS dropdown menu:
 https://codepen.io/mikerojas87/pen/xxvJPp?editors=1100
 
+JS popup window base:
+https://youtu.be/uUCpopjPZdI
+
 All images found at https://unsplash.com
-Dogs:
-
-Cats:
-
-Birds:
-
-Bunnies:
-
-Slideshow images:
 
 Animal sound effects from
 https://pixabay.com/sound-effects/

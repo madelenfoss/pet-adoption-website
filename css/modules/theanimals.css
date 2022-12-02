@@ -7,6 +7,7 @@
 	font-size: 22px;
 	justify-content: center;
 	text-align: center;
+	
 
  }
 
@@ -19,6 +20,7 @@
 	grid-template-rows: repeat(3, 1fr);
 	gap: 3rem;
 	justify-content: space-between;
+	
 }
 
 
@@ -31,6 +33,7 @@
 	border: 0.2rem solid var(--quinary);
 	border-radius: 0.1rem;
 	cursor: pointer;
+	
 }
 
 .contentbox__item h3 {
@@ -44,6 +47,7 @@
 	color: white;
 	margin-top: -2.5rem;
 	object-fit: contain;
+	
 }
 
 .contentbox__item img {
