@@ -5,6 +5,7 @@ footer {
 	min-width: 400px;
 	margin-top: 3rem;
 	background-color: var(--primary);
+	box-shadow: 0 -1px 6px var(--tertiary);
 }
 
 .footer__some-items {

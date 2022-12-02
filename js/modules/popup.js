@@ -5,28 +5,25 @@ export default function Popup() {
 
 	document.querySelector('#contentbox__openpopup-1').addEventListener('click', () => {
 		backgroundArne.style.display = "block";
-	}) 
+	}); 
 	
 	document.querySelector('#contentbox__closepopup-1').addEventListener('click', () => {
 		backgroundArne.style.display = "none";
-	}) 
+	}); 
 
 	// Berta dog popup card
 	const backgroundBerta = document.querySelector('#contentbox__popup-2');
 
 	document.querySelector('#contentbox__openpopup-2').addEventListener('click', () => {
 		backgroundBerta.style.display = "block";
-	}) 
+	}); 
 	
 	document.querySelector('#contentbox__closepopup-2').addEventListener('click', () => {
 		backgroundBerta.style.display = "none";
-	}) 
-
-	
+	}); 
 
 
-	
-	/* Animal sounds - See Arne the dog for example */ 
+	/* Animal sounds */ 
 
 	// This one works, but turns all buttons into sound buttons:
 
@@ -58,14 +55,6 @@ export default function Popup() {
 	})
 }
 
- 	/* Cat sounds */
-	const katlaAudio = new Audio('./assets/sounds/cat-meow-14536.mp3');
-
-	if (katlaAudio) {
-		document.querySelector('.katlameow').addEventListener('click', () => {
-			katlaAudio.play();
-		})
-	}
 
 
 
