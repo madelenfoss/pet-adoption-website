@@ -9,10 +9,25 @@
 	text-align: center;
 }
 
-.donate__vipps-btn {
+.donate__container img {
+	margin: 2rem auto;
+	width: 20%;
+	min-width: 400px;
+	border-radius: 20px;
+	box-shadow: 1px 2px 5px var(--tertiary);
+}
+
+.donate__container h4 {
+	margin: 1rem auto;
+	font-size: 22px;
+	font-weight: 400;
+
+}
+
+.donate__container-vipps-btn {
 	width: 10rem;
 	height: 4.5rem;
-	margin: 1rem auto;
+	margin: 0.5rem auto 1rem auto;
 	background-color: var(--quaternary);
 	color: var(--quinary);
 	font-weight: bold;
@@ -20,9 +35,15 @@
 	border-radius: 100px;
 	border: none;
 	box-shadow: -1px 5px 8px var(--tertiary);
+	cursor: pointer;
+	transition: ease-in-out 0.3s;
 }
 
-.donate__vipps-btn:active {
+.donate__container-vipps-btn:hover {
+	background-color: var(--septenary);
+}
+
+.donate__container-vipps-btn:active {
 	box-shadow: -1px 3px 4px var(--tertiary);
 }
 
