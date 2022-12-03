@@ -1,9 +1,12 @@
 .donate__container {
 	display: flex;
+	margin: 0 auto;
+	width: 90%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	color: var(--tertiary);
+	text-align: center;
 }
 
 .donate__vipps-btn {

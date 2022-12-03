@@ -32,3 +32,12 @@
 		margin-bottom: -0.3rem;
 	}
 }
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+	.shop__container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+
+	}
+}
