@@ -1,0 +1,34 @@
+.visit__container {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: 1rem auto;
+	justify-content: center;
+	align-items: center;
+	color: var(--tertiary);
+}
+
+.visit__container h3 {
+	margin: 1rem auto;
+}
+
+.visit__container img {
+	width: 40%;
+	margin: 2rem 1rem;
+	min-width: 500px;
+	border-radius: 20px;
+	box-shadow: 0 5px 10px var(--tertiary);
+	align-items: center;
+}
+
+.visit__container-openinghr {
+	text-align: center;
+	line-height: 1.5rem;
+	font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+}
