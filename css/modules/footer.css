@@ -1,6 +1,6 @@
 footer {
 	width: 100vw;
-	height: 11rem;
+	height: 12rem;
 	min-width: 400px;
 	margin-top: 3rem;
 	background-color: var(--primary);
@@ -17,8 +17,17 @@ footer {
 }
 
 .footer__some-item {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
-	margin: 0 1rem;
+	text-align: center;
+}
+
+.footer__some-item img:hover {
+	color: var(--quinary);
 }
 
 .footer__some a {
