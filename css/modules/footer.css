@@ -26,8 +26,8 @@ footer {
 	text-align: center;
 }
 
-.footer__some-item img:hover {
-	color: var(--quinary);
+.footer__some-item img {
+	width: 40px;
 }
 
 .footer__some a {
