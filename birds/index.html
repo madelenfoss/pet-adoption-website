@@ -10,122 +10,256 @@
 	</head>
 	<body>
 
-	<header>
-		<nav class="navbar">
-			<ul class="navbar__items">
-
-				<li class="navbar__item navbar__item-logo">
-					<a href="/index.html">
+		<header class="header__sticky">
+			<nav class="navbar">
+				<ul class="navbar__items">
+	
+					<li class="navbar__item navbar__item-logo">
+						<a href="/index.html">
+							FRENDO
+						</a>
+					</li>
+	
+					<li class="navbar__item">
+						<a href="/about.html">
+							ABOUT
+						</a>
+					</li>
+	
+					<li class="navbar__item">
+						<a href="#">
+							ADOPT
+						</a>
+						<ul class="navbar__submenu"> <!-- dropdown menu -->
+							<li class="navbar__submenu-item">
+								<a href="/dogs.html">
+									DOGS
+								</a>
+							</li>
+	
+							<li class="navbar__submenu-item">
+								<a href="/cats.html">
+									CATS
+								</a>
+							</li>
+	
+							<li class="navbar__submenu-item">
+								<a href="/birds.html">
+									BIRDS
+								</a>
+							</li>
+	
+							<li class="navbar__submenu-item">
+								<a href="/bunnies.html">
+									BUNNIES
+								</a>
+							</li>
+						</ul>
+					</li>
+					
+					<li class="navbar__item">
+						<a href="">
+							GET INVOLVED
+						</a>
+						<ul class="navbar__submenu"> <!-- dropdown menu -->
+							<li class="navbar__submenu-item">
+								<a href="/membership1.html">
+									MEMBERSHIP
+								</a>
+							</li>
+	
+							<li class="navbar__submenu-item">
+								<a href="/visit.html">
+									VISIT
+								</a>
+							</li>
+							
+							<li class="navbar__submenu-item">
+								<a href="/volunteer.html">
+									VOLUNTEER
+								</a>
+							</li>
+							
+							<li class="navbar__submenu-item">
+								<a href="/foster.html">
+									FOSTER
+								</a>
+							</li>
+						</ul>
+					</li>
+	
+					<li class="navbar__item">
+						<a href="/shop.html">
+							SHOP
+						</a>
+					</li>
+	
+					<li class="navbar__item">
+						<a href="#">
+							FUN
+						</a>
+						<ul class="navbar__submenu"> <!-- dropdown menu -->
+							<li class="navbar__submenu-item">
+								<a href="/converter.html">
+									PET AGE CONVERTER
+								</a>
+							</li>
+							
+							<li class="navbar__submenu-item">
+								<a href="#">
+									MEMORY GAME
+								</a>
+							</li>
+						</ul>
+					</li>
+	
+					<li class="navbar__item">
+						<a href="/contact.html">
+							CONTACT
+						</a>
+					</li>
+					<li class="navbar__item navbar__item-donate">
+						<a href="/donate.html">
+							DONATE
+						</a>
+					</li>
+				</ul>
+			</nav>
+	
+			<!-- Navbar for mobile devices: -->
+	
+			<nav class="
+				navbar__mob 
+				navbar__mob-hide">
+				<ul class="navbar__mob-items">
+					<li class="
+						navbar__mob-item 
+						navbar__mob-item-logo">
+						<a href="/index.html">
 						FRENDO
-					</a>
-				</li>
-
-				<li class="navbar__item">
-					<a href="/about.html">
-						ABOUT
-					</a>
-				</li>
-
-				<li class="navbar__item">
-					<a href="#">
-						ADOPT
-					</a>
-					<ul class="navbar__submenu"> <!-- dropdown menu -->
-						<li class="navbar__submenu-item">
-							<a href="/dogs.html">
-								DOGS
-							</a>
-						</li>
-
-						<li class="navbar__submenu-item">
-							<a href="/cats.html">
-								CATS
-							</a>
-						</li>
-
-						<li class="navbar__submenu-item">
-							<a href="/birds.html">
-								BIRDS
-							</a>
-						</li>
-
-						<li class="navbar__submenu-item">
-							<a href="/bunnies.html">
-								BUNNIES
-							</a>
-						</li>
-					</ul>
-				</li>
-				
-				<li class="navbar__item">
-					<a href="">
-						GET INVOLVED
-					</a>
-					<ul class="navbar__submenu"> <!-- dropdown menu -->
-						<li class="navbar__submenu-item">
-							<a href="/memberform1.html">
-								MEMBERSHIP
-							</a>
-						</li>
-						
-						<li class="navbar__submenu-item">
-							<a href="/visit.html">
-								VISIT
-							</a>
-						</li>
-						
-						<li class="navbar__submenu-item">
-							<a href="/volunteer.html">
-								VOLUNTEER
-							</a>
-						</li>
-						
-						<li class="navbar__submenu-item">
-							<a href="/foster.html">
-								FOSTER
-							</a>
-						</li>
-					</ul>
-				</li>
-
-				<li class="navbar__item">
-					<a href="/shop.html">
-						SHOP
-					</a>
-				</li>
-
-				<li class="navbar__item">
-					<a href="#">
-						FUN
-					</a>
-					<ul class="navbar__submenu"> <!-- dropdown menu -->
-						<li class="navbar__submenu-item">
-							<a href="/ageconverter.html">
-								PET AGE CONVERTER
-							</a>
-						</li>
-						
-						<li class="navbar__submenu-item">
-							<a href="#">
-								MEMORY GAME
-							</a>
-						</li>
-					</ul>
-				</li>
-
-				<li class="navbar__item">
-					<a href="/contact.html">
-						CONTACT
-					</a>
-				</li>
-				<li class="navbar__item navbar__item-donate">
-					<a href="/donate.html">
-						DONATE
-					</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+						</a>
+					</li>
+	
+					<!-- Dropdown menu start -->
+	
+					<li class="navbar__mob-item">
+						<a href="">
+							MENU
+						</a>
+	
+						<ul class="subnavbar__mob">
+							<li class="subnavbar__mob-item">
+								<a href="/about.html">
+									ABOUT
+								</a>
+							</li>
+	
+							<li class="subnavbar__mob-item">
+								<a>ADOPT:</a>
+								<ul>
+	
+									<li class="subnavbar__mob-item">
+										<a href="/dogs.html">
+											Dogs
+										</a>
+									</li>
+	
+									<li class="subnavbar__mob-item">
+										<a href="/cats.html">
+											Cats
+										</a>
+									</li>
+	
+									<li class="subnavbar__mob-item">
+										<a href="/birds.html">
+											Birds
+										</a>
+									</li>
+	
+									<li class="subnavbar__mob-item">
+										<a href="/bunnies.html">
+											Bunnies
+										</a>
+									</li>
+	
+								</ul>
+							</li>
+	
+							<li class="subnavbar__mob-item">
+								<a>GET INVOLVED:</a>
+								<ul>
+	
+									<li class="subnavbar__mob-item">
+										<a href="/membership1.html">
+											Membership
+										</a>
+									</li>
+	
+									<li class="subnavbar__mob-item ">
+										<a href="/volunteer.html">
+											Volunteer
+										</a>
+									</li>
+	
+									<li class="subnavbar__mob-item">
+										<a href="/visit.html">
+											Visit
+										</a>
+									</li>
+	
+									<li class="subnavbar__mob-item">
+										<a href="/foster.html">Foster</a>
+									</li>
+								</ul>
+							</li>
+	
+							<li class="subnavbar__mob-item">
+								<a href="/shop.html">
+									SHOP
+								</a>
+							</li>
+							
+							<li class="subnavbar__mob-item">
+								<a>FUN:</a>
+								<ul>
+	
+									<li class="subnavbar__mob-item ">
+										<a href="/converter.html">
+											Age converter
+										</a>
+									</li>
+									
+									<li class="subnavbar__mob-item">
+										<a href="#">
+											Memory game
+										</a>
+									</li>
+	
+								</ul>
+							</li>
+	
+							<li class="subnavbar__mob-item">
+								<a href="/contact.html">
+									CONTACT
+								</a>
+							</li>
+	
+						</ul>
+					</li>
+	
+					<!-- Dropdown menu end -->
+	
+					<li 
+						class="navbar__mob-item" 
+						id="donate-button">
+						<a href="/donate.html">
+							DONATE
+						</a>
+					</li>
+	
+				</ul>
+			</nav>
+		</header>
 
 	<main>
 		<h1>The Birds</h1>
@@ -148,84 +282,84 @@
 				<img 
 					src="/assets/images/bird-6.jpg" 
 					alt="">
-				<h3>Bird 1 &#9794</h3> <!-- number code for gender icon -->
+				<h3>Don&#9794 & Dolly&#9792</h3> <!-- number code for gender icon -->
 			</div>
 
 			<div class="contentbox__item">
 				<img 
 					src="/assets/images/bird-8.jpg" 
 					alt="">
-				<h3>Bird 2 &#9794</h3>
+				<h3>Greenchen &#9794</h3>
 			</div>
 
 			<div class="contentbox__item">
 				<img 
 					src="/assets/images/bird-7.jpg" 
 					alt="">
-				<h3>Bird 3 &#9792</h3>
+				<h3>Ulf &#9794</h3>
 			</div>
 
 			<div class="contentbox__item">
 				<img 
 					src="/assets/images/bird-1.jpg" 
 					alt="">	
-				<h3>Bird 4 &#9794</h3> 
+				<h3>Ursula &#9792</h3> 
 			</div>
 
 			<div class="contentbox__item">
 				<img 
 					src="/assets/images/bird-5.jpg" 
 					alt="">
-				<h3>Bird 5 &#9792</h3>
+				<h3>Spritz &#9794</h3>
 			</div>
 
 			<div class="contentbox__item">
 				<img 
 					src="/assets/images/bird-3.jpg" 
 					alt="">
-				<h3>Bird 6 &#9792</h3>
+				<h3>Pete&#9794 & Polly&#9792</h3>
 			</div>
 
 			<div class="contentbox__item">
 				<img 
 					src="/assets/images/bird-2.jpg" 
 					alt="">
-				<h3>Bird 7 &#9792</h3> 
+				<h3>Ola &#9794</h3> 
 			</div>
 			
 			<div class="contentbox__item">
 				<img 
 					src="/assets/images/bird-4.jpg" 
 					alt="">
-				<h3>Bird 8 &#9794</h3>
+				<h3>Per &#9794</h3>
 			</div>
 
 			<div class="contentbox__item">
 				<img 
 					src="/assets/images/bird-9.jpg" 
 					alt="">
-				<h3>Bird 9 &#9792</h3>
+				<h3>Sputnik &#9794</h3>
 			</div>
 
 			<div class="contentbox__item">
 				<img 
 					src="/assets/images/bird-10.jpg" 
 					alt="">
-				<h3>Bird 10 &#9792</h3>
+				<h3>Pamela &#9792</h3>
 			</div>
 
 			<div class="contentbox__item">
 				<img 
 					src="/assets/images/bird-11.jpg" 
 					alt="">
-				<h3>Bird 11 &#9792</h3>
+				<h3>Tooty Frooty &#9792</h3>
 			</div>
 			
 			<div class="contentbox__item">
 				<img 
 					src="/assets/images/bird-12.jpg" 
 					alt="">
-				<h3>Bird 12 &#9794</h3>
+				<h3>Fluke &#9794</h3>
 			</div>
 		</div>
 	</main>
@@ -239,28 +373,43 @@
 					<a href="/index.html">FRENDO</a>
 				</li>
 
-				<li class="footer__some-item footer__some-contact">
+				<li class="footer__some-item">
+					<img 
+						src="/assets/icons/icons8-mail-50.png" 
+						alt="small blue mail icom">
 					<a href="/contact.html">Contact</a>
 				</li>
 
-				<li>
+				<li class="footer__some-item">
+					<img 
+						src="/assets/icons/icons8-facebook-50.png"
+						alt="small blue facebook icon">
 					<a 
 						target="_blank" 
-						href="www.facebook.com">Facebook
+						href="www.facebook.com">
+						Facebook
 					</a>
 				</li>
 
-				<li>
+				<li class="footer__some-item">
+					<img 
+						src="/assets/icons/icons8-instagram-50.png"
+						alt="small blue instagram icon">
 					<a 
 						target="_blank" 
-						href="www.instagram.com">Instagram
+						href="www.instagram.com">
+						Instagram
 					</a>
 				</li>
 
-				<li>
+				<li class="footer__some-item">
+					<img 
+						src="/assets/icons/icons8-twitter-50.png"
+						alt="small blue twitter icon">
 					<a 
 						target="_blank" 
-						href="www.twitter.com">Twitter
+						href="www.twitter.com">
+						Twitter
 					</a>
 				</li>
 
