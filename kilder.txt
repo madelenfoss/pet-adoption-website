@@ -4,10 +4,11 @@ https://codepen.io/mikerojas87/pen/xxvJPp?editors=1100
 JS popup window base:
 https://youtu.be/uUCpopjPZdI
 
-All images found at https://unsplash.com
-
-Animal sound effects from
+Animal sound effects from:
 https://pixabay.com/sound-effects/
+
+All animal photos found at:
+https://unsplash.com
 
 SoMe icons:
 https://icons8.com

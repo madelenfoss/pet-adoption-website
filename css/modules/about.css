@@ -2,7 +2,7 @@
 	display: block;
 	margin: 2rem auto;
 	width: 50%;
-	min-width: 550px;
+	min-width: 450px;
 	align-items: center;
 	border-radius: 20px;
 	box-shadow: 0 5px 10px var(--tertiary);
@@ -22,7 +22,7 @@
 
  @media screen and (max-width: 768px) {
 	.about__image {
-		width: 98%;
+		width: 90%;
 		border-radius: 0;
 	}
 

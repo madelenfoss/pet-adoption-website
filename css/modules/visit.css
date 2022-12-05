@@ -15,7 +15,7 @@
 .visit__container img {
 	width: 40%;
 	margin: 2rem 1rem;
-	min-width: 500px;
+	min-width: 460px;
 	border-radius: 20px;
 	box-shadow: 0 5px 10px var(--tertiary);
 	align-items: center;
@@ -28,7 +28,8 @@
 }
 
 
-
 @media screen and (max-width: 768px) {
-
+	.visit__container img {
+		border-radius: 5px;
+	}
 }
