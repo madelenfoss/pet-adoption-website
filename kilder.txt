@@ -4,6 +4,9 @@ https://codepen.io/mikerojas87/pen/xxvJPp?editors=1100
 JS popup window base:
 https://youtu.be/uUCpopjPZdI
 
+JS sound button:
+https://dev.to/shantanu_jana/how-to-play-sound-on-button-click-in-javascript-3m48
+
 Animal sound effects from:
 https://pixabay.com/sound-effects/
 
