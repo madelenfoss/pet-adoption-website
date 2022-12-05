@@ -10,7 +10,7 @@
 .slideshow {
 	position: absolute;
 	margin: 5rem auto 2rem auto;
-	width: 70vw;
+	width: 75vw;
 	min-width: 600px;
 	height: 70vh;
 	top: 60%;
@@ -117,17 +117,25 @@
 @media screen and (max-width: 992px) and (min-width: 769px) {
 
 	.slideshow {
-		width: 80vw;
+		width: 90vw;
+		justify-content: center;
 	}
 
 	.slideshow__button-next {
-		right: -1.5rem;
+		right: -0.5rem;
 		border-width: 30px 0 30px 60px;
 	}
 
 	.slideshow__button-previous {
-		left: -1.5rem;
+		left: -0.5rem;
 		border-width: 30px 60px 30px 0;
+	}
+
+	.slideshow img {
+		display: flex;
+		margin: 0 auto;
+		width: 75vw;
+
 	}
 }
 
