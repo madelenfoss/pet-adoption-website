@@ -1,5 +1,25 @@
 export default function Popup() {
+
+// Learn how to create js popup card with this type of code:
+ 
+ // export default function Popup(contentboxContainer) {
+	// let popupVisible = false;
 	
+	// // Arne dog popup card
+	// const popupItem = contentboxContainer.querySelector('.contentbox__popup');
+
+	// popupItem.addEventListener("click", handleItemClick);
+
+	// function handleItemClick(event) {
+	// 	togglePopup();
+	// 	renderHTML();
+	// }
+
+	// function togglePopup() { 
+	// 	popupVisible = !popupVisible;
+	// }
+
+
 	// Arne dog popup card
 	const backgroundArne = document.querySelector('#contentbox__popup-1');
 
@@ -37,7 +57,7 @@ export default function Popup() {
 	//   });
 	
 
-	/* Dog sounds */
+	// Dog sounds on popup card
  	const arneAudio = new Audio('./assets/sounds/dog_barking-6296.mp3');
 
 	if (arneAudio) {
@@ -46,7 +66,6 @@ export default function Popup() {
   	});
  }
 
-
  	const bertaAudio = new Audio('./assets/sounds/tubby-bark-1-48313.mp3');
 
 	if (bertaAudio) {
@@ -54,8 +73,5 @@ export default function Popup() {
 			bertaAudio.play();
 	})
 }
-
-
-
 
 }

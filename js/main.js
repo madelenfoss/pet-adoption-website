@@ -11,4 +11,7 @@ Header();
 Ageconverter();
 Popup();
 
+// for (const contentboxContainer in document.querySelectorAll('.contentbox__item')) {
+// 	Popup(contentboxContainer);
+// }
 
