@@ -3,7 +3,8 @@
 }
 
 .foster__p {
-	display: block;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	margin: 1rem auto;
 	padding: 1rem 5rem;
@@ -12,3 +13,40 @@
 	justify-content: center;
 	text-align: center;
 }
+
+.foster__email a {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	text-decoration: none;
+	color: var(--tertiary);	
+	font-weight: bold;
+	font-size: 22px;
+}
+
+ .foster__email a:hover {
+	color: var(--quaternary);
+ }
+
+.foster__image {
+	display: block;
+	margin: 2rem auto;
+	width: 50%;
+	min-width: 450px;
+	align-items: center;
+	border-radius: 20px;
+	box-shadow: 0 5px 10px var(--tertiary);
+}
+
+@media screen and (max-width: 768px) {
+	.foster__p {
+		margin: 1rem;
+		width: 90%;
+		padding: 1rem 1.5rem;
+	}
+
+	.foster__image {
+		width: 95%;
+		border-radius: 5px;
+	}
+ }
