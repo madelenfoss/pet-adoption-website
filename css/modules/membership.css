@@ -1,4 +1,8 @@
-/* 
+
+.membership__h1 {
+	font-family: var(--font-h1);
+}
+
 .membership__p {
 	display: flex;
 	width: 100%;
@@ -8,31 +12,13 @@
 	text-align: center;
 }
 
-
 .membership__container {
 	display: flex;
 	margin: 2.5rem auto;
-	width: 80vw;
-	height: 70vh;
-
-} 
-
-
-.membership__container-background {
+	width: 60vw;
+	height: 80vh;
 	background-color: var(--primary);
-	height: 70vh;
-	width: 80vw;
-	border-radius: 20px;
-	box-shadow: 0 10px 30px var(--tertiary);
-}
-
-.membership__container-foreground {
-	width: 80vw;
-	height: 70vh;
-	background-image: linear-gradient(to right, var(--quinary), transparent);
-	border-radius: 20px;
-
-}
+} 
 
 .membership__container-fieldset {
 	border: none;
@@ -49,7 +35,7 @@
 	display: flex;
 	flex-direction: column;
 	margin: 1rem auto;
-	width: 100%;
+	width: 32rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -64,4 +50,4 @@
 	.membership__container-form {
 
 	}
-} */
+}
