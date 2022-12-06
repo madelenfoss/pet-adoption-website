@@ -1,3 +1,7 @@
+.animals__h1 {
+	font-family: var(--font-h1);
+}
+
 .animals__p {
 	display: block;
 	width: 100%;
@@ -7,8 +11,6 @@
 	font-size: 22px;
 	justify-content: center;
 	text-align: center;
-	
-
  }
 
 .contentbox {
@@ -20,9 +22,7 @@
 	grid-template-rows: repeat(3, 1fr);
 	gap: 3rem;
 	justify-content: space-between;
-	
 }
-
 
 .contentbox__item {
 	margin: 1rem;
@@ -33,7 +33,6 @@
 	border: 0.2rem solid var(--quinary);
 	border-radius: 0.1rem;
 	cursor: pointer;
-	
 }
 
 .contentbox__item h3 {
@@ -46,8 +45,7 @@
 	padding: 0.2rem 0.5rem;
 	color: white;
 	margin-top: -2.5rem;
-	object-fit: contain;
-	
+	object-fit: contain;	
 }
 
 .contentbox__item img {
@@ -104,7 +102,6 @@
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: repeat(4, 1fr);
 	}
-
 }
 
 

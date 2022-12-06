@@ -13,8 +13,6 @@
 	border-radius: 20px;
 	box-shadow: 0 6px 50px var(--senary);
 	cursor: auto;
-	
-
 }
 
 .contentbox__popup {
@@ -27,7 +25,6 @@
 	z-index: 30;
 	background-color: rgba(0, 0, 0, 0.5);
 	cursor: auto;
-
 }
 
 .contentbox__popup img {
@@ -56,7 +53,7 @@
 .popup__container-h2 {
 	color: var(--tertiary);
 	text-align: center;
-	
+	font-family: var(--font-h1);
 }
 
 .popup__container-p {
@@ -64,14 +61,12 @@
 	margin: 1rem auto;
 	padding: 0 3rem;
 	text-align: center;
-
 }
 
 .popup__container-email {
 	text-decoration: none;
 	font-weight: bold;
 	color: var(--tertiary);
-	
 }
 
 .popup__container-email:hover {
@@ -92,7 +87,6 @@
 .popup__container-sound:hover {
 	background-color: var(--quaternary);
 	color: var(--quinary);
-	
 }
 
 .contentbox__closepopup {
@@ -108,8 +102,6 @@
 	border-radius: 10px;
 	box-shadow: 1px 1px 2px var(--tertiary);
 	cursor: pointer;
-	
-	
 }
 
  @media screen and (max-width: 768px) {

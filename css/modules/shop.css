@@ -1,5 +1,6 @@
-#shop__h1 {
+.shop__h1 {
 	margin: 3rem auto 2rem auto;
+	font-family: var(--font-h1);
 }
 
 .shop__menu {

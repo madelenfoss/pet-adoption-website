@@ -1,3 +1,7 @@
+.contact__h1 {
+	font-family: var(--font-h1);
+}
+
 .contact__p {
 	display: flex;
 	width: 100%;
@@ -7,7 +11,6 @@
 	font-size: 22px;
 	justify-content: center;
 	text-align: center;
-
  }
 
  .contact__email a {

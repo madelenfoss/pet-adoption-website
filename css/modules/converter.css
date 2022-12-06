@@ -1,7 +1,5 @@
-.h1__converter {
-	margin: 2rem auto;
-	width: 100%;
-	text-align: center;
+.converter__h1 {
+	font-family: var(--font-h1);
 }
 
 .converter {
@@ -18,7 +16,7 @@
 	box-shadow: 0 6px 20px var(--tertiary);
 }
 
-label {
+.converter__label {
 	margin: 2rem auto 0.5rem auto;
 	font-size: 25px;
 	width: 90%;
@@ -26,7 +24,7 @@ label {
 	color: var(--quinary);
 }
 
-input {
+.converter__input {
 	width: 70%;
 	margin: 0 auto 1rem auto;
 	padding: 0.8rem;
@@ -37,10 +35,6 @@ input {
 	border: none;
 	box-shadow: 0 4px 6px var(--tertiary) inset;
 }
-
-/* input:last-of-type {
-	margin-bottom: 2rem;
-} */
 
 .converter__output-label {
 	width: 70%;
