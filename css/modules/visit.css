@@ -14,6 +14,9 @@
 
 .visit__container h3 {
 	margin: 1rem auto;
+	font-family: var(--font-h3);
+	font-size: 30px;
+	text-shadow: 0 4px 4px var(--primary);
 }
 
 .visit__container img {
