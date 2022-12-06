@@ -1,5 +1,10 @@
+CSS:
+
 CSS dropdown menu:
 https://codepen.io/mikerojas87/pen/xxvJPp?editors=1100
+
+
+JS:
 
 JS popup window base:
 https://youtu.be/uUCpopjPZdI
@@ -7,11 +12,23 @@ https://youtu.be/uUCpopjPZdI
 JS sound button:
 https://dev.to/shantanu_jana/how-to-play-sound-on-button-click-in-javascript-3m48
 
-Animal sound effects from:
-https://pixabay.com/sound-effects/
+
+Images and icons:
 
 All animal photos found at:
 https://unsplash.com
 
 SoMe footer icons:
 https://icons8.com
+
+
+Sound files:
+
+Animal sound effects from:
+https://pixabay.com/sound-effects/
+
+
+Fonts:
+
+All fonts found on: 
+https://fonts.google.com/
