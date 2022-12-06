@@ -25,6 +25,17 @@
 	align-items: center;
 }
 
+.visit__container-p {
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1rem 5rem;
+	color: var(--tertiary);
+	font-size: 22px;
+	justify-content: center;
+	text-align: center;
+}
+
 .visit__container-openinghr {
 	text-align: center;
 	line-height: 1.5rem;
@@ -33,6 +44,12 @@
 
 
 @media screen and (max-width: 768px) {
+	.visit__container-p {
+		margin: 1rem;
+		width: 90%;
+		padding: 0 1rem;
+	}
+
 	.visit__container img {
 		border-radius: 5px;
 	}
