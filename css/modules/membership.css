@@ -1,3 +1,4 @@
+/* 
 .membership__p {
 	display: flex;
 	width: 100%;
@@ -7,54 +8,60 @@
 	text-align: center;
 }
 
-.membership {
+
+.membership__container {
 	display: flex;
 	margin: 2.5rem auto;
-	height: 70rem;
-	justify-content: center;
-	max-width: 30rem;
+	width: 80vw;
+	height: 70vh;
 
-}
+} 
 
-.membership__background {
-	background-image: url('/assets/images/background-hannah-lim.jpg');
-	height: 90%;
-	width: 42rem;
-	object-fit: fill;
-	justify-content: center;
+
+.membership__container-background {
+	background-color: var(--primary);
+	height: 70vh;
+	width: 80vw;
 	border-radius: 20px;
 	box-shadow: 0 10px 30px var(--tertiary);
 }
 
-.membership__foreground {
-	margin: 0 auto;
-	padding: 1rem;
-	width: 42rem;
-	height: 70%;
-	background-image: linear-gradient(to bottom, var(--quinary), transparent);
-	justify-content: center;
+.membership__container-foreground {
+	width: 80vw;
+	height: 70vh;
+	background-image: linear-gradient(to right, var(--quinary), transparent);
 	border-radius: 20px;
+
 }
 
+.membership__container-fieldset {
+	border: none;
+}
 
-.membership__form {
+.membership__container-form {
+	display: flex;
+	flex-direction: row;
+	margin: 2rem auto;
+
+}
+
+.membership__container-name {
 	display: flex;
 	flex-direction: column;
+	margin: 1rem auto;
+	width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-	.membership__foreground {
-		display: flex;
-		width: 100%;
-		border-radius: 5px;
+	.membership__container-background {
+
 	}
 
-	.membership__background {
-		width: 96%;
-		border-radius: 5px;
+	.membership__container-foreground {
+
 	}
 
-	.membership__form {
-		margin: 4rem;
+	.membership__container-form {
+
 	}
-}
+} */
