@@ -315,26 +315,70 @@
 
 		<div class="membership__container">
 			<fieldset class="membership__container-fieldset">
-				<legend>Become a member</legend>   
+				<legend class="membership__container-legend">Member registration</legend>   
 				<form
 					class="membership__container-form" 
 					action="./membership2.html"
 					method="post">
-					<div class="membership__container-name">
-					<label for="fullname">Full name</label>
-					<input 
-						type="text" 
-						placeholder="Full name (required)"
-						name="" 
-						id="fullname"
-						required>
-					<label for="email">Email address</label>
-					<input 
-						type="text"
-						placeholder="Email address"
-						id="email"
-						required>
+					<div class="membership__container-info">
+						<label for="fullname">Full name:</label>
+						<input 
+							type="text" 
+							placeholder="Full name (required)"
+							name="" 
+							id="fullname"
+							required>
+						<label for="email">Email address:</label>
+						<input 
+							type="text"
+							placeholder="Email address"
+							id="email"
+							required>
+						</div>
+					<div class="membership__container-donation">
+						<div class="membership__container-donation--monthly">
+							<h3>Monthly donation</h3>
+							<input 
+								type="radio" 
+								name="monthly-donation" 
+								id="monthly-200">
+							<label for="monthly-200">200 NOK</label>
+
+							<input 
+								type="radio" 
+								name="monthly-donation" 
+								id="monthly-300">
+							<label for="monthly-300">300 NOK</label>
+
+							<input 
+								type="radio" 
+								name="monthly-donation" 
+								id="monthly-300">
+							<label for="monthly-500">500 NOK</label>
+						</div>
+						
+						<div class="membership__container-donation--yearly">
+							<h3>Yearly donation</h3>
+							<input 
+								type="radio" 
+								name="yearly-donation" 
+								id="yearly-200">
+								<label for="yearly-200">200 NOK</label>
+
+							<input 
+								type="radio" 
+								name="yearly-donation" 
+								id="yearly-300">
+							<label for="yearly-200">300 NOK</label>
+
+							<input 
+								type="radio" 
+								name="yearly-donation" 
+								id="yearly-500">
+							<label for="yearly-500">500 NOK</label>
+						</div>
 					</div>
+					<input id="submit" type="submit" value="Proceed to payment information">
 				</form>
 			</fieldset>
 		</div> 

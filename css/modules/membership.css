@@ -16,38 +16,142 @@
 	display: flex;
 	margin: 2.5rem auto;
 	width: 60vw;
-	height: 80vh;
-	background-color: var(--primary);
+	height: 85vh;
+	background: var(--tertiary);
+	border-radius: 20px;
+	justify-content: center;
+	box-shadow: 0 8px 20px var(--tertiary);
 } 
 
 .membership__container-fieldset {
 	border: none;
+	width: 100%;
+}
+
+.membership__container-legend {
+	margin: 1rem auto 0.5rem auto;
+	padding: 1.5rem;
+	width: 80%;
+	font-family: var(--font-h3);
+	font-size: 28px;
+	color: var(--quinary);
+	border-bottom: 1px solid var(--quinary);
+	text-align: center;
+	text-shadow: 0 3px 6px var(--senary);
 }
 
 .membership__container-form {
 	display: flex;
-	flex-direction: row;
-	margin: 2rem auto;
-
+	flex-direction: column;
+	width: 100%;
 }
 
-.membership__container-name {
+#email, #fullname {
+	justify-content: left;
+	padding: 0.5rem 1rem;
+	width: 22rem;
+	height: 2.2rem;
+	border-radius: 10px;
+	border: 1px solid var(--quinary);
+	box-shadow: 1px 2px 3px var(--tertiary) inset;
+}
+
+.membership__container-info {
 	display: flex;
 	flex-direction: column;
-	margin: 1rem auto;
-	width: 32rem;
+	margin: 0 auto;
+}
+
+.membership__container-info label {
+	font-family: var(--font-h3);
+	margin: 2rem 1rem 0.5rem 0;
+	color: var(--quinary);
+}
+
+.membership__container-donation {
+	display: flex;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0.5rem auto;
+	justify-content: center;
+	color: var(--quinary);
+}
+
+.membership__container-donation h3 {
+	font-family: var(--font-h3);
+	font-size: 20px;
+	margin: 1rem;
+}
+
+.membership__container-donation--monthly {
+	display: flex;
+	flex-direction: column;
+	margin: 0 2rem 1rem 2rem;
+	padding: 1rem;
+	align-items: flex-start;
+}	
+
+.membership__container-donation--monthly label {
+	margin-left: 1.5rem;
+	margin-top: -2rem;
+	padding: 1rem;
+}
+
+.membership__container-donation--yearly {
+	display: flex;
+	flex-direction: column;
+	margin: 0 2rem 1rem 2rem;
+	padding: 1rem;
+	align-items:flex-start;
+}
+
+.membership__container-donation--yearly label {
+	margin-left: 1.5rem;
+	margin-top: -2rem;
+	padding: 1rem;
+}
+
+#submit {
+	margin: 0 auto 1rem auto;
+	width: 12rem;
+	height: 3rem;
+	justify-content: center;
+	border-radius: 20px;
+	border: none;
+}
+
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+	.membership__container {
+		width: 80%;
+	}
+
+	#email, #fullname {
+		width: 20rem;
+	}
 }
 
 @media screen and (max-width: 768px) {
-	.membership__container-background {
+	.membership__container {
+		width: 90%;
+		height: 40rem;
+	}
+	
+	#email, #fullname {
+		width: 18rem;
+	}
+
+	.membership__container-donation--monthly label {
+		margin-left: 1rem;
+		margin-top: -2rem;
+		padding: 1rem;
 
 	}
 
-	.membership__container-foreground {
+	.membership__container-donation--yearly label {
+		margin-left: 1rem;
+		margin-top: -2rem;
+		padding: 1rem;
 
 	}
 
-	.membership__container-form {
-
-	}
 }
