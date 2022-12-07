@@ -17,12 +17,18 @@
 }
 
 .volunteer__container-email {
+	display: block;
+	margin: 1rem auto;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	text-decoration: none;
 	color: var(--tertiary);
 	font-weight: bold;
+}
+
+.volunteer__container-email:hover {
+	color: var(--quaternary);
 }
 
 .volunteer__container img {

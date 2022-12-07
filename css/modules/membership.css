@@ -57,7 +57,7 @@
 }
 
 input:focus {
-	outline: none;
+	outline: 1px solid var(--primary);
 	border-bottom: 3px solid var(--primary);
 }
 
@@ -183,3 +183,10 @@ input:invalid {
 	}
 
 }
+
+/* membership page 2 */
+.membership__payment-h1 { 
+	margin-bottom: 20rem;
+	font-family: var(--font-h1);
+
+} 
