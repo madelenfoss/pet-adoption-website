@@ -71,7 +71,24 @@
 	border-style: solid;
 	filter: drop-shadow(0px 4px 6px var(--tertiary));
 	cursor: pointer;
+	transition: ease-in-out 0.3s;
+}
 
+.slideshow__button-next:hover {
+	border-color: 
+		transparent
+		transparent 
+		transparent
+		var(--septenary);
+}
+
+.slideshow__button-next:active {
+	border-color: 
+		transparent
+		transparent 
+		transparent
+		var(--septenary);
+	filter: drop-shadow(0px 4px 3px var(--tertiary));
 }
 
 .slideshow__button-previous {
@@ -91,6 +108,24 @@
 	border-style: solid;
 	filter: drop-shadow(0px 4px 6px var(--tertiary));
 	cursor: pointer;
+	transition: ease-in-out 0.3s;
+}
+
+.slideshow__button-previous:hover {
+	border-color: 
+		transparent
+		var(--septenary)
+		transparent 
+		transparent;
+}
+
+.slideshow__button-previous:active {
+	border-color: 
+		transparent
+		var(--septenary)
+		transparent 
+		transparent;
+	filter: drop-shadow(0px 4px 3px var(--tertiary));
 }
 
 .slideshow__buttons-hide {
