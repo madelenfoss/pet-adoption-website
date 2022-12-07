@@ -118,6 +118,12 @@
 	border-radius: 20px;
 	border: none;
 	cursor: pointer;
+	background-color: var(--quaternary);
+	font-family: var(--font-h1);
+	font-size: 20px;
+	color: var(--quinary);
+	text-shadow: 0 1px 2px var(--senary);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.502);
 }
 
 
@@ -133,8 +139,8 @@
 
 @media screen and (max-width: 768px) {
 	.membership__container {
-		width: 90%;
-		height: 40rem;
+		width: 95%;
+		height: 41rem;
 	}
 	
 	#email, #fullname {
