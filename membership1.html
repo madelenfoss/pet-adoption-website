@@ -26,11 +26,13 @@
 					</a>
 				</li>
 
+				<!-- dropdown menu -->
+
 				<li class="navbar__item">
 					<a href="#">
 						ADOPT
 					</a>
-					<ul class="navbar__submenu"> <!-- dropdown menu -->
+					<ul class="navbar__submenu"> 
 						<li class="navbar__submenu-item">
 							<a href="./dogs.html">
 								DOGS
@@ -56,12 +58,14 @@
 						</li>
 					</ul>
 				</li>
+
+				<!-- dropdown menu -->
 				
 				<li class="navbar__item">
 					<a href="">
 						GET INVOLVED
 					</a>
-					<ul class="navbar__submenu"> <!-- dropdown menu -->
+					<ul class="navbar__submenu"> 
 						<li class="navbar__submenu-item">
 							<a href="./membership1.html">
 								MEMBERSHIP
@@ -94,11 +98,13 @@
 					</a>
 				</li>
 
+				<!-- dropdown menu -->
+
 				<li class="navbar__item">
 					<a href="#">
 						FUN
 					</a>
-					<ul class="navbar__submenu"> <!-- dropdown menu -->
+					<ul class="navbar__submenu"> 
 						<li class="navbar__submenu-item">
 							<a href="./converter.html">
 								PET AGE CONVERTER
@@ -262,49 +268,9 @@
 	</header>
 
 	<main>
-		<!-- <section class="section__member">
-			<div class="row">
-				<div class="member">
-					<div class="member__form">
-						<form action="#" class="form">
-							<div class="u-margin-botton-medium">
-								<h2 class="member__form-heading">
-									Become a member 
-								</h2>
-							</div>
-								 
-							<div class="form__group">
-								<label 
-									for="name" 
-									class="form__label">Full name
-								</label>
-								<input 
-									id="name"   
-									type="text" 
-									class="form__input" 
-									placeholder="Full Name" 
-									required>
-							</div>
 
-							<div class="form__group">
-								<label 
-									for="email" 
-									class="form__label">
-									Email address
-								</label>
-								<input 
-									id="email"   
-									type="email" 
-									class="form__input" 
-									placeholder="Email address" 
-									required>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div> 
-	   </section> -->
 		<h1 class="membership__h1">Become a member</h1>
+
 		<p class="membership__p">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 			Molestias id iure atque ratione deleniti eos repellendus, 
@@ -313,13 +279,14 @@
 		</p>
 
 
-		<div class="membership__container">
+		<section class="membership__container">
 			<fieldset class="membership__container-fieldset">
 				<legend class="membership__container-legend">Member registration</legend>   
 				<form
 					class="membership__container-form" 
 					action="./membership2.html"
-					method="post">
+					method="get">
+					
 					<div class="membership__container-info">
 						<label for="fullname">Full name:</label>
 						<input 
@@ -334,14 +301,16 @@
 							placeholder="Email address (required)"
 							id="email"
 							required>
-						</div>
+					</div>
+					
 					<div class="membership__container-donation">
 						<div class="membership__container-donation--monthly">
 							<h3>Monthly donation:</h3>
 							<input 
 								type="radio" 
 								name="donation" 
-								id="monthly-200">
+								id="monthly-200"
+								required>
 							<label for="monthly-200">200 NOK</label>
 
 							<input 
@@ -376,13 +345,17 @@
 								name="donation" 
 								id="yearly-500">
 							<label for="yearly-500">500 NOK</label>
-						</div>
+						</div>	
 					</div>
-					<input id="submit" type="submit" value="Proceed to payment">
+
+					<input 
+						id="submit" 
+						type="submit" 
+						value="Proceed to payment">
+						
 				</form>
 			</fieldset>
-		</div> 
-
+		</section> 
 
 	</main>
 	
