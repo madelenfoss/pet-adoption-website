@@ -223,6 +223,7 @@
 
 	.slideshow__buttons-hide {
 		display: flex;
+		filter: drop-shadow(0px 4px 6px var(--tertiary));
 	}
 
 	.slideshow__dots {
