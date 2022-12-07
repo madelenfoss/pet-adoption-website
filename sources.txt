@@ -3,6 +3,8 @@ CSS:
 CSS dropdown menu:
 https://codepen.io/mikerojas87/pen/xxvJPp?editors=1100
 
+Css input:focus and :invalid:
+https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid
 
 JS:
 
