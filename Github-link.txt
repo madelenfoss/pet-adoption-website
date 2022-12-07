@@ -1,3 +1,0 @@
-Pet adoption website:
-
-https://github.com/madelenfoss/pet-adoption-website
