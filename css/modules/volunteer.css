@@ -33,9 +33,11 @@
 
 .volunteer__container img {
 	margin: 3rem;
+	width: 30rem;
 	border-radius: 20px;
 	border-radius: 20px;
 	box-shadow: 0 5px 10px var(--tertiary);
+	object-fit: cover;
 }
 
 @media screen and (max-width: 992px) and (min-width: 769px) {
@@ -46,6 +48,10 @@
 
 	.volunteer__container p {
 		margin: 2rem;
+	}
+
+	.volunteer__container img {
+		margin: 1rem auto;
 	}
 }
 
