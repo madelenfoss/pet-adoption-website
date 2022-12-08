@@ -5,7 +5,7 @@
 	text-align: center;
 	width: 100vw;
 	margin: 3rem auto 40rem auto;
-	color: #0054A1;
+	color: var(--tertiary);
 }
 
 .slideshow {
@@ -17,9 +17,9 @@
 	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: #61BDFF;
+	background-color: var(--primary);
 	border-radius: 2rem;
-	box-shadow: 0 6px 20px #0054A1;
+	box-shadow: 0 6px 20px var(--tertiary);
 	overflow:visible;
 }
 
@@ -163,7 +163,7 @@
 	align-items: center;
 	width: 50%;
 	left: 25%;
-	bottom: -2rem;
+	bottom: -2.5rem;
 	justify-content: space-around;
 	cursor: pointer;
 }

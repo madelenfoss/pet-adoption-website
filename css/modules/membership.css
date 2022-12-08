@@ -80,15 +80,9 @@ input:invalid {
 .membership__container-donation {
 	display: flex;
 	grid-template-columns: repeat(2, 1fr);
-	margin: 0.5rem auto;
+	margin: 2rem auto;
 	justify-content: center;
 	color: var(--quinary);
-}
-
-.membership__container-donation h3 {
-	font-family: var(--font-h3);
-	font-size: 20px;
-	margin: 1rem;
 }
 
 .membership__container-donation--monthly {
@@ -97,7 +91,15 @@ input:invalid {
 	margin: 0 2rem 1rem 2rem;
 	padding: 1rem;
 	align-items: flex-start;
+	border: 1px solid var(--quinary);
 }	
+
+
+.membership__container-donation--monthly legend {
+	margin: 1rem auto;
+	width: 100%;
+	text-align: center;
+}
 
 .membership__container-donation--monthly label {
 	margin-left: 1.5rem;
@@ -111,6 +113,13 @@ input:invalid {
 	margin: 0 2rem 1rem 2rem;
 	padding: 1rem;
 	align-items:flex-start;
+	border: 1px solid var(--quinary);
+}
+
+.membership__container-donation--yearly legend {
+	margin: 1rem auto;
+	width: 100%;
+	text-align: center;
 }
 
 .membership__container-donation--yearly label {
