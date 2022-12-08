@@ -1,6 +1,6 @@
 export default function Popup() {
 
-// Learn how to create js popup card with this type of code:
+// To do: learn how to create js popup card with this type of code:
  
  // export default function Popup(contentboxContainer) {
 	// let popupVisible = false;
